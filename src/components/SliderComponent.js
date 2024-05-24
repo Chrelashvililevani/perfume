@@ -6,13 +6,13 @@ import 'slick-carousel/slick/slick-theme.css';
 import { PrevArrow, NextArrow } from './CustomArrows'; // Import the custom arrows
 
 const SliderContainer = styled.div`
-  width: 80%;
+  width: 70%;
   margin: 0rem auto;
   position: relative;
 `;
 
 const AltSliderContainer = styled.div`
-  width: 80%;  /* Ensure the width matches SliderContainer */
+  width: 70%;  /* Ensure the width matches SliderContainer */
   margin: 0 auto;
   position: relative;
   top: 3rem;  /* Adjust position as needed */
@@ -42,7 +42,7 @@ const Slide = styled.div`
 `;
 
 const Image = styled.img`
-  max-width: 100%;
+  max-width: 80%;
   max-height: 400px;
   border-radius: 8px;
 `;

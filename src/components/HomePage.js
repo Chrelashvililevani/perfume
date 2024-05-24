@@ -4,6 +4,7 @@ import FavoritePerfumeSlider from './FavoritePerfumeSlider';
 import './style.css';
 import PerfumeSlider from './PerfumeSlider';
 import Navigation from './Navigation';
+import ScrollToTopButton from './ScrollToTopButton';
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Slider />
       <PerfumeSlider />
       <FavoritePerfumeSlider />
+      <ScrollToTopButton />
     </>
   );
 };

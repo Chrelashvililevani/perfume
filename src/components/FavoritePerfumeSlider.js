@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { PrevArrow, NextArrow } from './CustomArrows'; // Import the custom arrows
 
 const SliderContainer = styled.div`
-  width: 80%;
+  width: 70%;
   margin: 2rem auto;
   position: relative;
 `;
@@ -16,7 +16,7 @@ const AltText = styled.div`
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 80%;
+  max-width: 70%;
   text-align: center;
   background: rgba(255, 255, 255, 0.8);
   padding: 0.5rem;
