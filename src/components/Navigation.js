@@ -41,7 +41,7 @@ const MenuContainer = styled.div`
   gap: 2rem;
 
   @media (max-width: 1200px) {
-    background-color: rgb(150, 81, 81);
+    background-color: rgba(150, 81, 81, 0.85);
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -77,7 +77,7 @@ const MenuItem = styled.a`
     border-bottom: 1px solid white;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 200px;
+    width: 80%;
     margin-left: -50px;
     &:hover {
       text-decoration: underline;
