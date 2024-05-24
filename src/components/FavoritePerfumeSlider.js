@@ -35,7 +35,8 @@ const Slide = styled.div`
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
 `;
